@@ -263,29 +263,3 @@ nav a:hover {
   cursor: pointer;
   color: #38bdf8;
 }
-
-/* Mobile */
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    position: fixed;
-    top: 65px;
-    left: -100%;
-    width: 100%;
-    background: #1e293b;
-    text-align: center;
-    padding: 20px 0;
-  }
-
-  nav ul.show {
-    left: 0;
-  }
-
-  nav ul li {
-    padding: 15px 0;
-  }
-
-  .menu-toggle {
-    display: block;
-  }
-}
