@@ -222,3 +222,43 @@ body {
 section {
   scroll-margin-top: 80px;
 }
+
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-img {
+    width: 180px;
+    height: 220px;
+  }
+
+  section {
+    padding: 60px 20px;
+  }
+
+  .box {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .btn-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+}
